@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 <!-- site metas -->
-<title>Cron</title>
+<title>SAFEWINGS</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="">	
@@ -34,7 +34,7 @@
 <body>
 	<div class="header_main">
 		<div class="container">
-			<div class="logo"><a href="index.php"><img src="images/newlogo.jpg" style="width: 162px; height:53px;"></a></div>
+			<div class="logo"><a href="index"><img src="images/newlogo.jpg" style="width: 162px; height:53px;"></a></div>
 		</div>
 	</div>
 	</div>
@@ -61,7 +61,7 @@
       	                        <a class="nav-link" href="contact">CONTACT</a></li>
                                 <li class="nav-item" href="#">
                                 <a class="nav-link" href="careers">CAREERS</a></li>
-                               <!-- <li class="last"> <a class="nav-link" href="careers.php">CAREERS</a></li> -->
+                              
                             </ul>
                         </div>
                     </nav>

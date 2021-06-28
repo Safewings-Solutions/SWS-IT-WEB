@@ -164,7 +164,8 @@ a {
 	width: 100%; 
 	float: left;
     /*background-image: url(../images/header.png); */
-    background: #fff;
+    /*background: #fff;*/
+    background: #0373cf;
 	height: auto;
 	padding-bottom: 20px;
 }
@@ -172,7 +173,8 @@ a {
 .banner-main{ 
 	width: 100%;
 	float: left;
-	background-image:url(../images/newbanner.JPG);
+	/*background-image:url(../images/newbanner.JPG);*/
+	background-image:url(../images/Home_page.JPEG);
 	height: auto;
 	padding-top: 20px;
 	padding-bottom: 226px; 
