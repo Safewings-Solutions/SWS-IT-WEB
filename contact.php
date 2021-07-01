@@ -14,7 +14,7 @@
 <title>SAFEWINGS</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
-<meta name="author" content="">	
+<meta name="author" content=""> 
 <!-- bootstrap css -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <!-- style css -->
@@ -32,36 +32,61 @@
 <link rel="stylesheet" href="css/owl.theme.default.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <!-- body -->
+
+<style>
+    .form-control
+    {
+        width:80%;
+    }
+</style>
 <body>
-	<div class="header_main">
-		<div class="container">
-			<div class="logo"><a href="index"><img src="images/newlogo.jpg" style="width: 162px; height:53px;"></a></div>
-		</div>
-	</div>
-	</div>
-	<div class="header">
-		<div class="container">
+    <!-- <div class="header_main">
+        <div class="container">
+            <div class="logo"><a href="index"><img src="images/newlogo.jpg" style="width: 162px; height:53px;"></a></div>
+        </div>
+    </div> -->
+    </div>
+    <div class="header">
+        <div class="container">
         <!--  header inner -->
             <div class="col-sm-12">
                  
+                   <div class="col-md-6">
+                  <a href="index"><img src="images/Safewings Solutions Pvt Ltd logo - Final.png" style="width: 162px; height:53px;"></a>
+
+                 </div>
+                 <div class="col-md-6">
+
                  <div class="menu-area">
-                    <nav class="navbar navbar-expand-lg ">
+                    <nav class="navbar navbar-expand-lg " style="float:right;">
                         <!-- <a class="navbar-brand" href="#">Menu</a> -->
 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                        <i class="fa fa-bars"></i>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                               <li class="nav-item ">
+                            <ul class="navbar-nav">
+                               <li class="nav-item active">
                                 <a class="nav-link" href="index">HOME<span class="sr-only">(current)</span></a> </li>
                                <li class="nav-item">
                                 <a class="nav-link" href="about">ABOUT</a></li>
                                <li class="nav-item">
                                 <a class="nav-link" href="service">SERVICES</a></li>
-                               <li class="nav-item active" href="#">
-      	                        <a class="nav-link" style="background-color: #af1116;" href="contact">CONTACT</a></li>
+                               <li class="nav-item" href="#">
+                                <a class="nav-link"  style="color:red;font-weight: bold;" href="contact">CONTACT</a></li>
                                 <li class="nav-item" href="#">
                                 <a class="nav-link" href="careers">CAREERS</a></li>
                               
@@ -70,8 +95,11 @@
                     </nav>
                 </div>
             </div>
+        </div>
         </div> 
     </div>
+
+
     <!-- end header end -->
     <div class="contact_main">
     <!--touch_section start -->
@@ -82,6 +110,7 @@
         </div>
     </div>
 
+
     <div class="lets_touch_main">
         <div class="container">
             <div class="row">
@@ -89,22 +118,23 @@
                     <div class="input_main">
                        <div class="container">
                         <!--  <form action="/contact_mail.php" method="POST">-->
-                            <div class="form-group">
-                                <span id="name-info" class="info" style="color:red"></span><br/>
-
-                              <input type="text" class="email-bt demoInputBox" placeholder="Name" name="name" id="name">
-                            </div>
-                            <div class="form-group">
-                                <span id="email-info" class="info" style="color:red"></span><br/>
-                              <input type="text" class="email-bt demoInputBox" placeholder="Email" name="email" id="email">
-                            </div>
-                            <div class="form-group">
-                                <span id="message-info" class="info" style="color:red"></span><br/>
-                              <textarea class="massage-bt demoInputBox" placeholder="Massage" rows="5" id="message" name="message"></textarea>
-
-                            </div>
-                            
-                         <!-- </form>-->
+                            <form>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="exampleInputUsername">Your name</label>
+                            <input type="text" class="form-control" id="" placeholder=" Enter Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail">Email Address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+                        </div>  
+                        <div class="form-group">
+                            <label for="telephone">Message</label>
+                            <textarea rows="5" class="form-control" id="telephone" placeholder="Enter Message"></textarea>
+                        </div>
+                    </div>
+                  
+                </form>
                        </div> 
                        <div class="send_btn">
                             <button type="button" name="submit" class="main_bt" onClick="sendContact();">Send</button>
@@ -117,8 +147,8 @@
                     <div class="row">
                         <div class="col-12">
                             <p class="lorem_text">We are always looking for passionate, potential and Committed people to join our team and share the same goal and vision with us.</p>
-                            <p class="lorem_text">E: Hr@safewingsit.com<br>
-                            Office 74, Arxiepiskopou Makariou III 66,<br>
+                            <p class="lorem_text">Email: Hr@safewingsit.com<br>
+                            Address : Office 74, Arxiepiskopou Makariou III 66,<br>
                             1077 Nicosia Cyprus</p>
                         </div>
                     </div>

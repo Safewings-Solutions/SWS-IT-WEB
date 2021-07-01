@@ -32,17 +32,22 @@
 </head>
 <!-- body -->
 <body>
-	<div class="header_main">
+	<!-- <div class="header_main">
 		<div class="container">
 			<div class="logo"><a href="index"><img src="images/newlogo.jpg" style="width: 162px; height:53px;"></a></div>
 		</div>
-	</div>
+	</div> -->
 	</div>
 	<div class="header">
 		<div class="container">
         <!--  header inner -->
             <div class="col-sm-12">
                  
+                 <div class="col-md-6">
+                  <a href="index"><img src="images/newlogo.jpg" style="width: 162px; height:53px;"></a>
+
+                 </div>
+                 <div class="col-md-6">
                  <div class="menu-area">
                     <nav class="navbar navbar-expand-lg ">
                         <!-- <a class="navbar-brand" href="#">Menu</a> -->
@@ -66,6 +71,7 @@
                         </div>
                     </nav>
                 </div>
+              </div>
             </div>
         </div> 
     </div>

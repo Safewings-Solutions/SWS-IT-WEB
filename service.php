@@ -14,7 +14,7 @@
 <title>SAFEWINGS</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
-<meta name="author" content="">	
+<meta name="author" content=""> 
 <!-- bootstrap css -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <!-- style css -->
@@ -32,36 +32,69 @@
 <link rel="stylesheet" href="css/owl.theme.default.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <!-- body -->
+
+<style>
+    #serviceimg
+    {
+        width:100%;
+        height: 500px;
+    }
+    @media only screen and (max-width: 600px) {
+  #serviceimg {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+    </style>
+
 <body>
-	<div class="header_main">
-		<div class="container">
-			<div class="logo"><a href="index"><img src="images/newlogo.jpg" style="width: 162px; height:53px;"></a></div>
-		</div>
-	</div>
-	</div>
-	<div class="header">
-		<div class="container">
+    <!-- <div class="header_main">
+        <div class="container">
+            <div class="logo"><a href="index"><img src="images/newlogo.jpg" style="width: 162px; height:53px;"></a></div>
+        </div>
+    </div> -->
+    </div>
+    <div class="header">
+        <div class="container">
         <!--  header inner -->
             <div class="col-sm-12">
                  
+                   <div class="col-md-6">
+                  <a href="index"><img src="images/Safewings Solutions Pvt Ltd logo - Final.png" style="width: 162px; height:53px;"></a>
+
+                 </div>
+                 <div class="col-md-6">
+
                  <div class="menu-area">
-                    <nav class="navbar navbar-expand-lg ">
+                    <nav class="navbar navbar-expand-lg " style="float:right;">
                         <!-- <a class="navbar-brand" href="#">Menu</a> -->
 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                        <i class="fa fa-bars"></i>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                               <li class="nav-item ">
+                            <ul class="navbar-nav">
+                               <li class="nav-item active">
                                 <a class="nav-link" href="index">HOME<span class="sr-only">(current)</span></a> </li>
                                <li class="nav-item">
                                 <a class="nav-link" href="about">ABOUT</a></li>
                                <li class="nav-item">
-                                <a class="nav-link active"  style="background-color: #af1116;" href="service">SERVICES</a></li>
+                                <a class="nav-link" style="color:red;font-weight: bold;" href="service">SERVICES</a></li>
                                <li class="nav-item" href="#">
-      	                        <a class="nav-link" href="contact">CONTACT</a></li>
+                                <a class="nav-link" href="contact">CONTACT</a></li>
                                 <li class="nav-item" href="#">
                                 <a class="nav-link" href="careers">CAREERS</a></li>
                               
@@ -70,8 +103,10 @@
                     </nav>
                 </div>
             </div>
+        </div>
         </div> 
     </div>
+
     <!-- end header end --> 
     <!--services start -->
     <div class="about_main" style="margin-top:40px;">
@@ -83,7 +118,7 @@
                 <div class="col-md-6">
                     <p>We provide services for Temenos T24 Products and Solutions which have the richest end to end banking functionality with model bank capabilities for over 150 countries. They are all delivered on the most advanced cloud-native, cloud-agnostic, AI and API-first Temenos Platform and deployable on-premise, in the cloud and as a service. T24 transact has helped over 3,000 clients accelerate their digital transformation by offering proven implementation strategies and profitability, and automate processes. </p>
 
-                    <h3 style="color:#af1116;">OUR SERVICES COMPRISE OF:</h3>
+                    <h3 style="color:#af1116;font-weight: bold;">OUR SERVICES COMPRISE OF:</h3>
 
             <p>- Requirements Analysis</p>
 <p>- System Implementation</p>
@@ -97,7 +132,7 @@
 <p>- Business Process Requirements</p>
 <p>- Outsourcing</p>
 
-     <h3 style="color:#af1116;">OUR PARTNERS:</h3>
+     <h3 style="color:#af1116;font-weight: bold;">OUR PARTNERS:</h3>
 
             <p>Dynamis Solutions is the first fully fledged Core Banking and Testing Advisory Company. It was created by a team of experienced consultants with a sum of more than 50 years of successful projects in core banking systems implementations and upgrades.</p>
 
@@ -106,7 +141,7 @@
             <p>The testing framework includes TGenius, a powerful Testing tool, user friendly, with costless and timeless installation, requirements traceability, detailed execution logs and built on Temenos knowledge and Banking experience. The tool is perfect fit for implementation and upgrades projects, covering bank requirements efficiently, as well as system maintenance and support.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="images/services.jpg" style="min-height: 100%;width:500px;">
+                    <img src="images/services.jpg" id="serviceimg">
                 </div>
             </div>
             </div>

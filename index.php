@@ -42,32 +42,40 @@
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+
 </head>
 <!-- body -->
 <body>
-	<div class="header_main">
+	<!-- <div class="header_main">
 		<div class="container">
 			<div class="logo"><a href="index"><img src="images/newlogo.jpg" style="width: 162px; height:53px;"></a></div>
 		</div>
-	</div>
+	</div> -->
 	</div>
 	<div class="header">
 		<div class="container">
         <!--  header inner -->
             <div class="col-sm-12">
                  
+                   <div class="col-md-6">
+                  <a href="index"><img src="images/Safewings Solutions Pvt Ltd logo - Final.png" style="width: 162px; height:53px;"></a>
+
+                 </div>
+                 <div class="col-md-6">
+
                  <div class="menu-area">
-                    <nav class="navbar navbar-expand-lg ">
+                    <nav class="navbar navbar-expand-lg " style="float:right;">
                         <!-- <a class="navbar-brand" href="#">Menu</a> -->
 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                        <i class="fa fa-bars"></i>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
+                            <ul class="navbar-nav">
                                <li class="nav-item active">
-                                <a class="nav-link"  style="background-color: #af1116;" href="index">HOME<span class="sr-only">(current)</span></a> </li>
+                                <a class="nav-link"  style="color:red;font-weight: bold;" href="index">HOME<span class="sr-only">(current)</span></a> </li>
                                <li class="nav-item">
                                 <a class="nav-link" href="about">ABOUT</a></li>
                                <li class="nav-item">
@@ -82,6 +90,7 @@
                     </nav>
                 </div>
             </div>
+        </div>
         </div> 
     </div>
 
@@ -239,20 +248,31 @@
     	<div class="container">
     		<div class="creative_taital">
     			<!-- <h1 class="creative_text">Creative Content Writing Services</h1> -->
-    			<p style="color: #050000; text-align: center;">LAPATEX Consultants LTD [Lapatex] is a Consultancy company with offices in Cyprus, Greece and Mauritius, established by Bankers with decades of experience in the Banking and Financial Sector, providing high value-added services.
-Lapatex delivers a wide range of best practice services, covering the entire lifecycle of a Transformation Program within the financial sector, from Requirement Analysis and System Selection to System Implementation and post Implementation services.</p>
+    			<p style="color: #050000; text-align: center;"><b>World trends are affecting the business economy and other industries. As a result, the banking sector has to resuscitate itself to make best use of existing opportunities and should be ready to face challenges ere long. 
+            </b></p>
 
-<p style="color: #050000; text-align: center;"><b style="color:#af1116">Our mission</b> is to provide the highest quality services to our clients through the efforts of a highly dedicated, knowledgeable and experienced team, who share a commitment to the long-term growth and success of the organization.</p>
+        <p style="color: #050000; text-align: center;">SAFEWINGS SOLUTIONS is a Banking and Financial Services company offering Business Process Requirements, Requirement Analysis, Project Management, System Implementation, Training, Upgradation, Testing, IT Support services, Interfacing, Migration and Outsourcing services to financial institutions who desire to advance and improve continually by profiting from integration of technology and services.  
+        </p>
 
-<p style="color: #050000; text-align: center;"><b style="color:#af1116">Our vision </b>is to be one of the best Consulting companies in the market providing services of exceptional value and trust for our customers.</p>
+        <p style="color: #050000; text-align: center;">Our Company is an esteemed technical partner for our clientele around the world. We work with some of the world’s most renowned, innovative and creative businesses and independent software providers by providing our assistance in leveraging technology and outsourcing in our distinct areas of expertise.  
+        </p>
+        <p style="color: #050000; text-align: center;">Moreover, we are also focusing on website expansion with hybrid mobile applications to assist different Small and Medium Businesses (SMBs) to have versatile and distinctive IT infrastructure according to modern business trends.  
+        </p>
 
-<p style="color: #050000; text-align: center;color:#af1116"><b>Lapatex delivers:</b></p>
+<p style="color: #050000; text-align: center;"><b style="color:#af1116">Our mission</b> is to provide very simplified solutions on time for every need of our customer.</p>
 
-<p style="color: #050000; text-align: center;">EXPERT CONSULTANCY SERVICES</p>
+<p style="color: #050000; text-align: center;">By integrating our extensive domain expertise with their vast IT experience and knowledge we provide a simple solution to the complex problem which makes our organization efficient and effective in all levels. The core strength of our organization to provide timely deliverables with best quality.  
+        </p>
 
-<p style="color: #050000; text-align: center;">EFFICIENT AND PROFESSIONAL RESPONSE TO THE CUSTOMERS NEEDS</p>
+<p style="color: #050000; text-align: center;"><b style="color:#af1116">Our uncompromised </b> quality is the major reason for customer association by changing new customers into loyal customers. The professionalism of our services resulted in transforming various enquiries into contracts.</p>
 
-<p style="color: #050000; text-align: center;">FAST, RELIABLE AND PROVEN METHODOLOGY</p>
+<p style="color: #050000; text-align: center;color:#af1116"><b>In Short SAFEWINGS SOLUTIONS Deliver:</b></p>
+
+<p style="color: #050000; text-align: center;">STELLAR SERVICES</p>
+
+<p style="color: #050000; text-align: center;">EFFICIENT AND PROFESSIONAL RESPONSE TO THE CUSTOMERS QUERRIES AND REQUIREMENTS</p>
+
+<p style="color: #050000; text-align: center;">GENUINE, QUICK AND PROVEN MODUS OPERANDI</p>
 
     			<!-- <div class="btn_main">
     			    <button type="button" class="btn btn-dark btn-lg">Get started</button>
@@ -303,6 +323,7 @@ Lapatex delivers a wide range of best practice services, covering the entire lif
     		    </div> -->
     	</div>	  
 	</div>
+
     <!--services end -->
 
     <!--quote_section start -->
@@ -403,6 +424,7 @@ Lapatex delivers a wide range of best practice services, covering the entire lif
     <!--Contact_section end -->
   
       <!-- Javascript files-->
+  </div>
 <?php
 include "footer.php";
 ?>

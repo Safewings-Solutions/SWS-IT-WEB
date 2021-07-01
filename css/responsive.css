@@ -373,7 +373,7 @@ ul.link li {
 }
 .bnner_title { font-size: 26pt; padding-top: 0px; margin-top: 0px;}
 .long_text { font-size: 10pt; }
-.creative_taital { margin-top: -73px;}
+.creative_taital { /*margin-top: -73px;*/}
 .navbar-nav.mr-auto li {
     float: left;
     width: 100%;
