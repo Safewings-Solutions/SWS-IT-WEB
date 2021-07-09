@@ -73,7 +73,7 @@
             <div class="col-sm-12">
                  
                    <div class="col-md-6">
-                  <a href="index"><img src="images/Safewings Solutions Pvt Ltd logo - Final.png" style="width: 162px; height:53px;"></a>
+                  <a href="index"><img src="images/resizelogo.jpg"></a>
 
                  </div>
                  <div class="col-md-6">
@@ -89,7 +89,7 @@
                                <li class="nav-item active">
                                 <a class="nav-link" href="index">HOME<span class="sr-only">(current)</span></a> </li>
                                <li class="nav-item">
-                                <a class="nav-link"  style="color:red;font-weight: bold;" href="about">ABOUT</a></li>
+                                <a class="nav-link"  style="font-weight: bold;" href="about">ABOUT</a></li>
                                <li class="nav-item">
                                 <a class="nav-link" href="service">SERVICES</a></li>
                                <li class="nav-item" href="#">
@@ -121,26 +121,26 @@
             <div class="col-md-12">
                 <div class="row">
                 <div class="col-md-6">
-                    <p>We are Stunning
-“Hold on to our expertise to create ingenious approaches and solutions with expert services”  
-</p> 
+                    <p style="text-align: center;"><b>We are Stunning</b></p>
+<p><b>“Hold on to our expertise to create ingenious approaches and solutions with expert services” </b></p> 
+
                     <p>SAFEWINGS team deliver our services at Offshore and on site by providing certified authorities with extensive proficiency and skilled expertise of users and executors of Digital & Core Banking Systems. </p>
 
                     <p>Our company concentrates on considerable heed on nurturing and keeping great talent. As a knowledge embracing company, our team delivers their valued professional services that has direct positive effect of added value on customers which shows our efforts and investment on the team.</p>
 
   <p>Our staff are expert Temenos Consultants having knowledge in various modules and functionalities of Temenos T24 Transact and Temenos Infinity.</p>
 
-                    <h3 style="color:#af1116;font-weight: bold;">OUR LEADERSHIP TEAM: </h3>
+                    <h3 style="color:#af1116;font-weight: bold;">OUR LEADERSHIP TEAM </h3>
 
             <p>We are more than the sum of our parts. Under our leadership team’s guidance and efforts, we stay clear on our goals, standards and approaches which take our work to the next level in achieving our agendas, concerns and prompt decision making.</p>
 
-     <h3 style="color:#af1116;font-weight: bold;">OUR MISSION :</h3>
+     <h3 style="color:#af1116;font-weight: bold;">OUR MISSION</h3>
 
-            <p>Our company’s mission is to provide very simplified solutions on time for every need of our customer</p>
+            <p>Our company’s mission is to provide very coherent solutions on time for every need of our customer</p>
 
-              <h3 style="color:#af1116;font-weight: bold;">OUR VISION :</h3>
+              <h3 style="color:#af1116;font-weight: bold;">OUR VISION</h3>
 
-            <p>Our vision is to provide and deliver simplified solutions with best quality services through our professional team for every requirement of the clients and to make our clients elated by having symbiotic growth.</p>
+            <p>Our vision is to provide and deliver coherent solutions with best quality services through our professional team for every requirement of the clients and to make our clients elated by having symbiotic growth.</p>
 
                 </div>
                 <div class="col-md-6">

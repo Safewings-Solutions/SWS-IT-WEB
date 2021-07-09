@@ -1,8 +1,5 @@
-<?php
-//include "header.php";
-?>
-<!DOCTYPE html>
-<html lang="en">
+  
+  <html lang="en">
 <head>
 <!-- basic -->
 <meta charset="utf-8">
@@ -26,25 +23,6 @@
 <!-- Scrollbar Custom CSS -->
 <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
 <!-- Tweaks for older IEs-->
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-<!-- owl stylesheets --> 
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.default.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-
-
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-
-<!------ Include the above in your HEAD tag ---------->
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<!-- body -->
 
 <style>
     #aboutusimg
@@ -169,14 +147,8 @@
     border-color: #fff;
 }
 </style>
-<body>
-    <!-- <div class="header_main">
-        <div class="container">
-            <div class="logo"><a href="index"><img src="images/newlogo.jpg" style="width: 162px; height:53px;"></a></div>
-        </div>
-    </div> -->
-    </div>
-    <div class="header">
+
+  <div class="header">
         <div class="container">
         <!--  header inner -->
             <div class="col-sm-12">
@@ -215,56 +187,134 @@
         </div> 
     </div>
 
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
-    <!-- end header end --> 
-    
-    <div class="services_main" style="padding-top: 0px;padding-bottom: 0px;">
-      
-<div class="col-sm-12">
-    <div class="row">
-        <!-- Carousel -->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width:100%;">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-               <!-- <li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="images/newslide.jpg" alt="First slide">
-                    <!-- Static Header -->
-                   <!-- /header-text -->
-                </div>
-                <div class="item">
-                    <img src="images/newslide2.jpeg" alt="Second slide">
-                    <!-- Static Header -->
-                    <!-- /header-text -->
-                </div>
-               <!-- <div class="item">
-                    <img src="images/services.jpg" alt="Third slide">-->
-                    <!-- Static Header -->
-                   <!-- /header-text -->
-               <!-- </div>-->
-            </div>
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-        </div><!-- /carousel -->
-    </div>
-</div>
 
-</div>
-    
-    
-    <!--services start -->
-   
-    <div class="services_main">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+ <div class="swiper-container">
+                <div class="swiper-wrapper">
+              <!--     <div class="swiper-slide">
+                    <div class="slide-inner" style="background-image:url(http://cs412624.vk.me/v412624691/4117/RWBNZL6CLtU.jpg)"></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slide-inner" style="background-image:url(http://cs412624.vk.me/v412624691/41ad/atM6w55Z9Xg.jpg)"></div>
+                  </div> -->
+                  <div class="swiper-slide">
+                    <div class="slide-inner">
+                      <img src="https://pp.userapi.com/c836139/v836139003/63ce1/QThPx7qPzvU.jpg">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slide-inner" style="background-image:url(https://pp.userapi.com/c412624/v412624691/4136/_da_uAA6ha8.jpg)"></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slide-inner">
+                       <img src="https://pp.userapi.com/c637331/v637331691/48f5f/spHnV42iYVw.jpg">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slide-inner">
+                      <img src="https://pp.userapi.com/c837139/v837139407/67f52/fFqjq4U2mEk.jpg">
+                    </div>
+                  </div>
+              <!--     <div class="swiper-slide">
+                    <div class="slide-inner" style="background-image:url(http://cs412624.vk.me/v412624691/415d/X7YuVilSl4k.jpg)"></div>
+                  </div> -->
+                </div>
+                <div class="swiper-button-next swiper-button-white"></div>
+                <div class="swiper-button-prev swiper-button-white"></div>
+              </div>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+           <script>
+                var interleaveOffset = 0.5;
+
+                var swiperOptions = {
+                  loop: true,
+                  speed: 1000,
+                  grabCursor: true,
+                  autoplay: true,
+                  watchSlidesProgress: true,
+                  mousewheelControl: true,
+                  keyboardControl: true,
+                  navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                  },
+                  on: {
+                    progress: function() {
+                      var swiper = this;
+                      for (var i = 0; i < swiper.slides.length; i++) {
+                        var slideProgress = swiper.slides[i].progress;
+                        var innerOffset = swiper.width * interleaveOffset;
+                        var innerTranslate = slideProgress * innerOffset;
+                        swiper.slides[i].querySelector(".slide-inner").style.transform =
+                          "translate3d(" + innerTranslate + "px, 0, 0)";
+                      }      
+                    },
+                    touchStart: function() {
+                      var swiper = this;
+                      for (var i = 0; i < swiper.slides.length; i++) {
+                        swiper.slides[i].style.transition = "";
+                      }
+                    },
+                    setTransition: function(speed) {
+                      var swiper = this;
+                      for (var i = 0; i < swiper.slides.length; i++) {
+                        swiper.slides[i].style.transition = speed + "ms";
+                        swiper.slides[i].querySelector(".slide-inner").style.transition =
+                          speed + "ms";
+                      }
+                    }
+                  }
+                };
+                
+                var swiper = new Swiper(".swiper-container", swiperOptions);
+
+           </script> 
+
+           <style>
+
+              .swiper-container {
+                height: calc(100vh - 120px);
+                margin: 60px;
+              }
+              
+              .swiper-slide {
+                overflow: hidden;
+              }
+              
+              .slide-inner {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background-size: cover;
+                background-position: center;
+              }
+              img{
+                display:block;
+                width:100%;
+                height:auto;
+              }
+              .copy {
+                position: absolute;
+                bottom: 15px;
+                left: 0;
+                right: 0;
+                color: white;
+                text-align: center;
+                letter-spacing: 0.06em;
+              }
+              a {
+                color: white;
+              }
+           </style>
+
+   <div class="services_main">
         <div class="container">
             <div class="creative_taital">
                 <!-- <h1 class="creative_text">Creative Content Writing Services</h1> -->

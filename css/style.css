@@ -156,7 +156,8 @@ a {
 	width: 100%;
 	width: 100%;
 	float: left;
-	background-color: #072833;
+	/*background-color: #072833;*/
+	background: #0373cf;
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
@@ -217,7 +218,9 @@ a {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 30px;
     padding-left: 0;
-    color: #fff;
+    /*color: #fff;*/
+    color: white;
+    font-weight: bold;
     /*font-size: 16px;*/
     letter-spacing: 0.5px;
 }

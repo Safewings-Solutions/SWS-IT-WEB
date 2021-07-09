@@ -67,7 +67,7 @@
             <div class="col-sm-12">
                  
                    <div class="col-md-6">
-                  <a href="index"><img src="images/Safewings Solutions Pvt Ltd logo - Final.png" style="width: 162px; height:53px;"></a>
+                  <a href="index"><img src="images/resizelogo.jpg"></a>
 
                  </div>
                  <div class="col-md-6">
@@ -89,7 +89,7 @@
                                <li class="nav-item" href="#">
                                 <a class="nav-link" href="contact">CONTACT</a></li>
                                 <li class="nav-item" href="#">
-                                <a class="nav-link"  style="color:red;font-weight: bold;" href="careers">CAREERS</a></li>
+                                <a class="nav-link"  style="font-weight: bold;" href="careers">CAREERS</a></li>
                               
                             </ul>
                         </div>

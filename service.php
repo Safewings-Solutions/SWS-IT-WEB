@@ -74,7 +74,7 @@
             <div class="col-sm-12">
                  
                    <div class="col-md-6">
-                  <a href="index"><img src="images/Safewings Solutions Pvt Ltd logo - Final.png" style="width: 162px; height:53px;"></a>
+                  <a href="index"><img src="images/resizelogo.jpg"></a>
 
                  </div>
                  <div class="col-md-6">
@@ -92,7 +92,7 @@
                                <li class="nav-item">
                                 <a class="nav-link" href="about">ABOUT</a></li>
                                <li class="nav-item">
-                                <a class="nav-link" style="color:red;font-weight: bold;" href="service">SERVICES</a></li>
+                                <a class="nav-link" style="font-weight: bold;" href="service">SERVICES</a></li>
                                <li class="nav-item" href="#">
                                 <a class="nav-link" href="contact">CONTACT</a></li>
                                 <li class="nav-item" href="#">
@@ -118,7 +118,7 @@
                 <div class="col-md-6">
                     <p>We provide services for Temenos T24 Products and Solutions which have the richest end to end banking functionality with model bank capabilities for over 150 countries. They are all delivered on the most advanced cloud-native, cloud-agnostic, AI and API-first Temenos Platform and deployable on-premise, in the cloud and as a service. T24 transact has helped over 3,000 clients accelerate their digital transformation by offering proven implementation strategies and profitability, and automate processes. </p>
 
-                    <h3 style="color:#af1116;font-weight: bold;">OUR SERVICES COMPRISE OF:</h3>
+                    <h3 style="color:#af1116;font-weight: bold;">OUR SERVICES COMPRISE OF</h3>
 
             <p>- Requirements Analysis</p>
 <p>- System Implementation</p>
@@ -132,13 +132,13 @@
 <p>- Business Process Requirements</p>
 <p>- Outsourcing</p>
 
-     <h3 style="color:#af1116;font-weight: bold;">OUR PARTNERS:</h3>
+    <!-- <h3 style="color:#af1116;font-weight: bold;">OUR PARTNERS</h3>
 
             <p>Dynamis Solutions is the first fully fledged Core Banking and Testing Advisory Company. It was created by a team of experienced consultants with a sum of more than 50 years of successful projects in core banking systems implementations and upgrades.</p>
 
             <p>Dynamis Solutions provides a unique testing framework, comprising of exhaustive testing library for the latest releases of Temenos T24 Transact and Temenos Infinity, a library of known issues and a library of risks, issues and challenges.</p>
 
-            <p>The testing framework includes TGenius, a powerful Testing tool, user friendly, with costless and timeless installation, requirements traceability, detailed execution logs and built on Temenos knowledge and Banking experience. The tool is perfect fit for implementation and upgrades projects, covering bank requirements efficiently, as well as system maintenance and support.</p>
+            <p>The testing framework includes TGenius, a powerful Testing tool, user friendly, with costless and timeless installation, requirements traceability, detailed execution logs and built on Temenos knowledge and Banking experience. The tool is perfect fit for implementation and upgrades projects, covering bank requirements efficiently, as well as system maintenance and support.</p>-->
                 </div>
                 <div class="col-md-6">
                     <img src="images/services.jpg" id="serviceimg">
@@ -156,38 +156,7 @@
 
     <!--Contact_section start -->
     <div class="contact_main">
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1 class="touch_text">Contact Us</h1>
-                </div>
-            </div>
-        </div> -->
-       <!--  <div class="contact_section_2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="map_icon">
-                            <img src="images/map-icon.png" style="max-width: 100%;padding-left: 30px; ">
-                            <p class="email-text"><a href="#">Gb road 123 londo<br>Uk</a></p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="map_icon">
-                            <img src="images/call-icon.png" style="max-width: 100%;padding-left: 30px;">
-                            <p class="email-text"><a href="#">+7123654897</a></p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="map_icon">
-                            <img src="images/email-icon.png" style="max-width: 100%; padding-left: 30px;">
-                            <p class="email-text"><a href="#">demo@gmail.com</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-    <!--Contact_section end -->
+        
 </div>
 <?php
 include "footer.php";

@@ -66,7 +66,7 @@
             <div class="col-sm-12">
                  
                    <div class="col-md-6">
-                  <a href="index"><img src="images/Safewings Solutions Pvt Ltd logo - Final.png" style="width: 162px; height:53px;"></a>
+                  <a href="index"><img src="images/resizelogo.jpg"></a>
 
                  </div>
                  <div class="col-md-6">
@@ -86,7 +86,7 @@
                                <li class="nav-item">
                                 <a class="nav-link" href="service">SERVICES</a></li>
                                <li class="nav-item" href="#">
-                                <a class="nav-link"  style="color:red;font-weight: bold;" href="contact">CONTACT</a></li>
+                                <a class="nav-link"  style="font-weight: bold;" href="contact">CONTACT</a></li>
                                 <li class="nav-item" href="#">
                                 <a class="nav-link" href="careers">CAREERS</a></li>
                               
@@ -122,15 +122,15 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="exampleInputUsername">Your name</label>
-                            <input type="text" class="form-control" id="" placeholder=" Enter Name">
+                            <input type="text" class="form-control" id="" placeholder=" Enter Name" required>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail">Email Address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+                            <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id" required>
                         </div>  
                         <div class="form-group">
                             <label for="telephone">Message</label>
-                            <textarea rows="5" class="form-control" id="telephone" placeholder="Enter Message"></textarea>
+                            <textarea rows="5" class="form-control" id="telephone" placeholder="Enter Message" required></textarea>
                         </div>
                     </div>
                   
@@ -148,8 +148,10 @@
                         <div class="col-12">
                             <p class="lorem_text">We are always looking for passionate, potential and Committed people to join our team and share the same goal and vision with us.</p>
                             <p class="lorem_text">Email: Hr@safewingsit.com<br>
-                            Address : Office 74, Arxiepiskopou Makariou III 66,<br>
-                            1077 Nicosia Cyprus</p>
+                            Address : Flat No 7, First Floor, Temple Street,<br>
+                            Patamata, Vijayawada, Krishna Dist.<br>
+                            Andhra Pradesh, PIN - 520010, India.</p>
+
                         </div>
                     </div>
                 </div>
